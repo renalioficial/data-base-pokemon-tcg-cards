@@ -17,7 +17,7 @@ Este projeto implementa um modelo relacional em PostgreSQL para armazenar cartas
 ### 📸 Visualização dos Dados
 Aqui está uma amostra dos dados carregados no banco (PostgreSQL) e exportados para conferência:
 
-![Amostra PostgreSQL](print%20amostra%20data%20base%20postgreeSQL.png)
+![Amostra PostgreSQL](pokemon-tcg-db/print%20amostra%20data%20base%20postgreeSQL.png)
 
 ---
 
@@ -122,5 +122,4 @@ Para garantir a integridade dos dados, realizei uma exportação e conferência 
 Este projeto é livre para uso e aprendizado.
 
 ```
-
 ```
