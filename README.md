@@ -18,6 +18,22 @@ Foi uma experiência prática e enriquecedora, que abriu portas para entender me
 
 ---
 
+## 🛒 Contexto de Negócio: Arquitetura PIM & Master Data
+
+Embora o tema seja Pokémon, a arquitetura deste banco de dados foi desenhada simulando um **PIM (Product Information Management)** real, resolvendo dores comuns de cadastro em E-commerce e Marketplaces:
+
+* **Gestão de Coleções (Taxonomia):** A tabela `tbl_collections` funciona como a árvore de categorias ou lançamentos de produtos ("Sazonalidade").
+  
+* **Cadastro de Produtos Complexos (SKUs):** A tabela `tbl_cards` simula o cadastro de itens com alta complexidade de atributos técnicos (HP, Tipo, Custo de Recuo, Fraqueza), garantindo que a ficha técnica do produto esteja padronizada.
+  
+* **Regras de Negócio & Integridade:** Implementação de **Foreign Keys** (Chaves Estrangeiras) para garantir a governança dos dados.
+  
+   
+    * **Regra:**
+       Nenhuma carta (Produto) pode ser cadastrada sem pertencer a uma Coleção válida (Categoria), evitando "produtos órfãos" no sistema.
+
+---
+
 # 🃏 Pokémon TCG Database (PostgreSQL)
 
 Este projeto implementa um modelo relacional em PostgreSQL para armazenar cartas do Pokémon TCG e suas coleções. Ele inclui a criação das tabelas, inserções iniciais (seeds) e uma view para facilitar consultas.
@@ -118,5 +134,6 @@ Este projeto é livre para uso e aprendizado.
 
 ```
 ```
+
 
 
