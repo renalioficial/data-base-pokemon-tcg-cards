@@ -1,3 +1,11 @@
+![Excel Version](https://img.shields.io/badge/SQL-red?style=for-the-badge&logo=microsoft-excel)
+![Excel Version](https://img.shields.io/badge/PowerShell-brown?style=for-the-badge&logo=microsoft-excel)
+![Excel Version](https://img.shields.io/badge/PostgreSQL-blue?style=for-the-badge&logo=microsoft-excel)
+![Excel Version](https://img.shields.io/badge/IA-orange?style=for-the-badge&logo=microsoft-excel)
+![Status](https://img.shields.io/badge/Status-Concluído-green?style=for-the-badge)
+
+
+
 ## ✨ Nota Pessoal
 
 Este projeto marca meu **primeiro contato com SQL e PostgreSQL**, além de ter sido a primeira vez que utilizei o **PowerShell** para interagir com banco de dados.
@@ -110,4 +118,5 @@ Este projeto é livre para uso e aprendizado.
 
 ```
 ```
+
 
