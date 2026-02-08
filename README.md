@@ -18,7 +18,7 @@ Foi uma experiência prática e enriquecedora, que abriu portas para entender me
 
 ---
 
-## 🛒 Contexto de Negócio: Arquitetura PIM & Master Data
+## 🛒 Contexto de Negócio: Arquitetura PIM & Master Data MDM
 
 Embora o tema seja Pokémon, a arquitetura deste banco de dados foi desenhada simulando um **PIM (Product Information Management)** real, resolvendo dores comuns de cadastro em E-commerce e Marketplaces:
 
@@ -134,6 +134,7 @@ Este projeto é livre para uso e aprendizado.
 
 ```
 ```
+
 
 
 
