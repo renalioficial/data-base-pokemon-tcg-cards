@@ -19,6 +19,7 @@ Aqui está uma amostra dos dados carregados no banco (PostgreSQL) e exportados p
 
 ![Amostra PostgreSQL](pokemon-tcg-db/print%20amostra%20data%20base%20postgreeSQL.png)
 
+
 ---
 
 ## 📂 Estrutura do Projeto
@@ -35,39 +36,7 @@ Aqui está uma amostra dos dados carregados no banco (PostgreSQL) e exportados p
 - **Relacionamento**: `tbl_cards.collection_id` → chave estrangeira que referencia `tbl_collections.id`.
 - **View**: `vw_cards_with_collection` une as duas tabelas e mostra os dados das cartas junto com o nome da coleção.
 
----
 
-## ⚙️ Como usar
-
-1. **Crie um banco de dados no PostgreSQL:**
-   ```sql
-   CREATE DATABASE pokemon_tcg;
-
-```
-
-2. **Execute o script de criação das tabelas:**
-```bash
-psql -d pokemon_tcg -f schema.sql
-
-```
-
-
-3. **Popule o banco com os dados iniciais:**
-```bash
-psql -d pokemon_tcg -f seeds.sql
-
-```
-
-
-4. **Crie a view:**
-```bash
-psql -d pokemon_tcg -f views.sql
-
-```
-
-
-
----
 
 ## 🔍 Exemplos de Consultas
 
@@ -82,6 +51,10 @@ FROM vw_cards_with_collection;
 
 ```
 
+<img width="1353" height="719" alt="image" src="https://github.com/user-attachments/assets/d4172663-9efa-46b2-aa17-4c51c9efc82f" />
+
+---
+
 **2. Buscar todas as cartas de uma coleção específica**
 
 ```sql
@@ -90,6 +63,11 @@ FROM vw_cards_with_collection
 WHERE collectionSetName = 'Base Set';
 
 ```
+
+<img width="1364" height="720" alt="image" src="https://github.com/user-attachments/assets/51e8f36f-abf5-4a8b-9ee4-7a758f25b841" />
+
+
+---
 
 **3. Listar cartas com HP maior que 80**
 
@@ -100,6 +78,10 @@ WHERE hp > 80;
 
 ```
 
+<img width="1366" height="718" alt="image" src="https://github.com/user-attachments/assets/400eb98e-bd8f-4b04-bed3-0484bb8d37cd" />
+
+---
+
 **4. Contar quantas cartas já foram inseridas por coleção**
 
 ```sql
@@ -108,12 +90,17 @@ FROM vw_cards_with_collection
 GROUP BY collectionSetName;
 
 ```
+<img width="1364" height="718" alt="image" src="https://github.com/user-attachments/assets/f4ea86d7-3a96-4418-b5cb-1462f7c546e8" />
+
 
 ---
 
 ## 📊 Validação dos Dados (Excel)
 
 Para garantir a integridade dos dados, realizei uma exportação e conferência via Excel:
+
+<img width="1257" height="424" alt="print excel data base pokemon" src="https://github.com/user-attachments/assets/2500f053-9747-4a14-bd24-146352c5ea60" />
+
 
 ---
 
@@ -123,3 +110,4 @@ Este projeto é livre para uso e aprendizado.
 
 ```
 ```
+
