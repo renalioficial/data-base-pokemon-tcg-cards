@@ -1,5 +1,11 @@
 ## PIM & Master Data Governance
 
+Autor(a): Renáli Cozaciski Cavalcante
+
+Contato/LinkedIn: https://www.linkedin.com/in/renali-cozaciski/
+
+
+
 ![Excel Version](https://img.shields.io/badge/SQL-red?style=for-the-badge&logo=microsoft-excel)
 ![Excel Version](https://img.shields.io/badge/PowerShell-brown?style=for-the-badge&logo=microsoft-excel)
 ![Excel Version](https://img.shields.io/badge/PostgreSQL-blue?style=for-the-badge&logo=microsoft-excel)
